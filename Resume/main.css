@@ -1,0 +1,70 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact {
+     text-align: center;
+}
+
+.skills ul {
+	-webkit-column-count: 2 ;
+	list-style-type: circle;
+}
+
+.exponedate {
+	float: right;
+}
+
+.exptwodate {
+	float: right;
+}
+
+.expthreedate {
+	float: right;
+}
+
+.expfourdate {
+	float: right;
+}
+
+.educationdate {
+	float: right;
+}
+
+.gpa {
+	float: right;
+}
+
+.detailone{
+	padding-left: 60px;
+}
+
+.detailonedate{
+	float: right;
+}
+
+.detailtwo{
+	padding-left: 60px;
+}
+
+.detailtwodate{
+	float: right;
+}
+
+.highschooldate{
+	float: right;
+}
+
+.detailthree {
+	padding-left: 60px;
+}
+
+
+.detailthreedate {
+	float: right;
+}
