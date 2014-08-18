@@ -2,17 +2,8 @@
 body {
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #ddd ;
-    margin: 100px;
    
 }
-
-.content-box, .skills .experience-1, .experience-2, .experience-3, .experience-4, .objective {
-	background-color: #aaa;
-	padding: 10px 30px 30px 30px;
-	margin: 30px;
-}
-
 
 a {
 	color: #F06F4F;
@@ -34,26 +25,33 @@ h3 {
 	display: inline;
 }
 
+.content-box, .experience-1, .experience-2, .experience-3, .experience-4 {
+	background-color: #aaa;
+	padding: 30px;
+	margin: 30px;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.experience-1, .experience-3{
+	float: left;
+	width: 40%;
+
+}
+.experience-2, .experience-4 {
+	float: right;
+	width: 40%;
+}
 
 
 .contact {
      text-align: center;
 }
 
-.objective {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: justify;
-
-}
-
 .skills ul {
 	list-style-type: circle;
-	columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-	
 }
 
 .date, .gpa {
