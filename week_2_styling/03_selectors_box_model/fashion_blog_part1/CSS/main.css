@@ -20,18 +20,30 @@ h1, h1 > a {
 	font-weight:300;
 	font-size: 2em;
 	color: #D00;
+	display: inline;
+	padding-right: 10px;
 }
+
 
 header>h2 {
 	font-size: 25px;
+	display: inline;
 }
 
 
 nav>a {
-	color: #DDD;
+	color: #fff;
 	border-bottom: 2px solid #DDD;
 	font-size: 25px;
-	margin-right: 20px;
+	background-color: black;
+	width: 15%;
+	display:inline-block;
+	height: 60px;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 60px; 
+
+
 }
 
 
@@ -71,4 +83,18 @@ article>a {
 
 article>a:hover {
 	color: #A00 ;
+}
+
+article{
+	float: left;
+	display: inline-block;
+	width: 70%;
+	clear: left;
+}
+
+.sidebar{
+
+	float: right;
+	display: inline-block;
+	width: 25%;
 }
