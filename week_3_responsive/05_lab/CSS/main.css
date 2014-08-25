@@ -1,0 +1,158 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+     font-family: 'Lato', sans-serif;
+     margin: 0;
+}
+
+.top-nav {
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	height: 44px;
+	border-bottom: 3px solid black;
+	padding-right: 20px;	
+	background-color: white;
+	z-index: 1;
+	padding-top: 7px;
+}
+
+nav>a , nav>a:visited, .caption, .caption:visited {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 15px;
+	padding-top: 30px;
+	font-size: 20px;
+
+}
+
+nav>a:hover{
+	background-color: black;
+	color: white;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+
+}
+
+.header {
+	height: 800px;
+	width: 100%;
+	display: block;
+	border-bottom: 44px solid black;
+
+}
+
+.img-container {
+	height: 800px;
+	width: 25%;
+	overflow: hidden;
+	float: left;
+	text-decoration: none;
+
+}
+
+.header-img {
+	width: auto;
+	height: 800px;
+	display: block;
+	position: relative;
+	left: -200px;
+}
+
+.caption, .caption>span {
+	z-index: 1;
+	position: relative;
+	top: 580px;
+	background-color: rgba(255, 255, 255, 0.5);
+	height: 44px;
+	display: block;
+	text-align: center;
+	color: black;
+	padding: 10px;
+}
+
+span.caption:hover {
+	background-color: #fff;
+}
+
+.divider{
+	display: block;
+	height: 44px;
+	background-color: black;
+	width: 100%;
+	z-index: 1;
+}
+
+.about-container {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	height: 500px;
+}
+
+.ryan-img , .holder-bars {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gallery-div{
+	overflow: hidden;
+	background-color: black;
+}
+
+.gallery-slot-1{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-right: 3px;
+
+}
+
+.gallery-slot-2 {
+	width: 25%;
+	height: 100%;
+	float: left;
+	padding-right:3px;
+
+
+}
+
+.gallery-slot-3 {
+	width: 25%;
+	float: right;
+	padding-bottom: 3px;
+
+}
+
+.gallery-slot-4 {
+	width: 25%;
+
+}
+
+.gallery-label {
+	position: absolute;
+	color: #fff;
+	background-color: black;
+	left: 100px;
+	padding: 15px;
+
+
+}
