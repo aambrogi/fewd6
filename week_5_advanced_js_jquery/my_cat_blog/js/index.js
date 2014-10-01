@@ -17,3 +17,26 @@ var posts = [
 		snippet: 'OMG people, are you ready for some heavy duty cuteness? I know I am. Check out these cats! I can\'t even handle this. Too cute!'
 	}
 ];
+
+var html = ' ';
+
+function generatePost(post){
+
+	var ret = '<div class="post clearfix">';
+	ret += '<img class="post-image float-left" src="' + post.image + '">';
+	ret += '<div class="post-content float-left">'
+	ret += '<h3 class="post-title">' + post.title + '</h3>'
+	ret += '<p>' + post.snippet + '</p>'
+	ret += '</div>'
+	ret += '</div>'
+	return ret;
+}
+
+
+for (var i = 0; i < posts.length; i++) {
+    html += generatePost(posts[i]);
+}
+
+
+$('#posts').html(html);
+

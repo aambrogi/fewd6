@@ -1,0 +1,117 @@
+/* Bad and ugly reset */
+* { margin: 0; padding: 0; border: 0; }
+
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+body{
+	font-family: "CoolveticaRg-Regular";
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+	height: 100%;
+	color: #474747;
+	font-weight: 400;
+	z-index: -3;    
+}
+
+
+html{
+  height: 100%;
+}
+
+
+@font-face {
+  font-family:"CoolveticaRg-Regular";
+  src:url("../fonts/coolvetica_rg.eot?") format("eot"),
+      url("../fonts/coolvetica_rg.woff") format("woff"),
+      url("../fonts/coolvetica_rg.ttf") format("truetype"),
+      url("../fonts/coolvetica_rg.svg#CoolveticaRg-Regular") format("svg");
+      font-weight:normal;
+      font-style:normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site-title{
+	position: fixed;
+	top: 1%;
+	left: 21px;
+	font-size: 3em;
+	color: #474747;
+	z-index: 999;
+	text-decoration: none;
+	z-index: 1000;
+}
+
+.fixed-pad{
+	background-color: white;
+	width: 5%;
+	position: fixed;
+	z-index: 999;
+	right: 0%;
+	top: 0%;
+	height: 100%;
+	
+}
+
+
+/*=====================================UNIQUE TO PAGE==========================================*/
+
+.about-container{
+	position: relative;
+	padding-top: 20%;
+	max-height: 100%;
+}
+
+.about{
+	width: 35%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	padding: 3%;
+	text-align: justify;
+}
+
+.contact h3, .about h3{
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 2em;
+}
+
+.contact{
+	width: 35%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	padding: 3%;
+	text-align: justify;
+}
+
+.dylan-image{
+	width: 30%;
+	height: auto;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}

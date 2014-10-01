@@ -9,6 +9,10 @@
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+html{
+	font-size: 16px;
+}
+
 body {
      font-family: 'Lato', sans-serif;
      margin: 0;
@@ -33,7 +37,7 @@ nav>a , nav>a:visited, .caption, .caption:visited {
 	font-weight: 400;
 	padding: 15px;
 	padding-top: 30px;
-	font-size: 20px;
+	font-size: 1.25rem
 
 }
 
@@ -95,6 +99,7 @@ span.caption:hover {
 	background-color: black;
 	width: 100%;
 	z-index: 1;
+	clear: both;
 }
 
 .about-container {
@@ -105,6 +110,30 @@ span.caption:hover {
 	height: 500px;
 }
 
+.grid{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.col{
+	float: left;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.col-1-4 {
+	width: 25%;
+	margin: 0;
+
+}
+
+.grid {
+  max-width: 2000px; 
+  margin: 0 auto;
+}
+
 .ryan-img , .holder-bars {
 	width: 500px;
 	height: 500px;
@@ -113,37 +142,39 @@ span.caption:hover {
 	padding: 0px;
 }
 
+.holder-bars{
+	display: none;
+}
+
 .gallery-div{
 	overflow: hidden;
 	background-color: black;
 }
 
 .gallery-slot-1{
-	width: 50%;
-	height: auto;
-	float: left;
+
 	padding-right: 3px;
+	height: auto;
 
 }
 
 .gallery-slot-2 {
-	width: 25%;
-	height: 100%;
-	float: left;
+
 	padding-right:3px;
 
 
 }
 
 .gallery-slot-3 {
-	width: 25%;
-	float: right;
+
 	padding-bottom: 3px;
+	height: 50%;
+
 
 }
 
 .gallery-slot-4 {
-	width: 25%;
+    height: 50%;
 
 }
 
@@ -153,6 +184,21 @@ span.caption:hover {
 	background-color: black;
 	left: 100px;
 	padding: 15px;
+	font-size: 1rem;
 
 
+}
+
+@media only screen and (max-width: 1000px){
+	.col-1-4{
+		width: 50%;
+		height: auto;
+	}
+
+
+
+	.portrait-container{
+		height: 50%;
+		overflow: hidden;
+	}
 }

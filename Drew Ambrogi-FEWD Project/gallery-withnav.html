@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+     <meta charset="utf-8">
+     <link href="../css/jq-horizontal.css" rel="stylesheet">
+     <link rel="stylesheet" href="../css/square_menu.css">
+     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+     <script type="text/javascript" src="../js/jquery.square_menu.js"></script>
+     <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+     <script type="text/javascript" src="../js/gallery.js"></script>
+
+     <script type="text/javascript">
+     $(document).ready(function(){
+      $(".sidemenu").square_menu({
+        flyDirection: "bottom",
+        button: "",
+        animationStyle: "vertical",
+        closeButton: "X"
+      });
+    });
+     </script>
+</head>
+
+<span class="sm-button">&#9776;</span>
+
+<a class="site-title" href="../index.html">comstock.media</a>
+
+ <div class="sidemenu">
+    <nav class="left">
+      <a href="About">ABOUT</a>
+      <a href="contact">CONTACT</a>
+      <a href="booking">BOOKING</a>
+    </nav>
+    <nav class="right">
+      <a href="Photography">PHOTOGRAPHY</a>
+      <a href="Videography">VIDEOGRAPHY</a>
+      <a href="Event Photography">EVENT PHOTOGRAPHY</a>
+    </nav>
+  </div>
+
+
+
+
+<div id="filter-container" class="filter-container">
+     <ul id="filter">
+          <li><a id="all">All</a></li>
+          <li><a id="people">People</a></li>
+          <li><a id="places">Places</a></li>
+          <li><a id="events">Events</a>
+              <ul class="sub-list">
+                   <li><a id="nightlife">Nightlife</a></li>
+                   <li><a id="politics">Politics</a></li>
+              </ul>
+              </li>
+     </ul>
+</div>
+
+<div class="horizontal-gallery">
+
+     <img class="people" src="../img/people/1.jpg">
+     <img class="events" src="http://placehold.it/1000x1000&text=events">
+     <img class="people" src="../img/people/2.jpg">
+     <img class="events" src="http://placehold.it/1000x1000&text=events">
+     <img class="people" src="../img/people/3.jpg">
+     <img class="events" src="http://placehold.it/1000x1000&text=events">
+     <img class="people" src="../img/people/4.jpg">
+     <img class="events" src="http://placehold.it/1000x1000&text=events">
+
+</div>
+
+<div class="fixed-pad"> </div>
+
+
+
+</body>
+</html>

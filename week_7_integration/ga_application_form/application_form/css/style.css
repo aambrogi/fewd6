@@ -1,0 +1,108 @@
+
+
+body {
+	background-image: url(../img/background.png);
+}
+
+label {
+	position: absolute;
+	display: block;
+	padding-left: 2em;
+}
+
+input {
+	display: inline-block;
+	padding: 2px;
+	background-color: #FFFAA2;
+
+}
+
+.gradient{
+	height: 3em;
+	background-image:
+	   linear-gradient(#E5E5E5, #999999);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.form-box{
+	width: 50%;
+	margin: auto;
+	margin-top: 10%;
+	border: 1px solid black;
+	border-radius: 6px;
+	clear: both;
+	background-color:rgba(255, 255, 255, 0.6);
+}
+
+.input-name{
+	width: 14em;
+}
+
+h3{
+	font-size: 1.1em;
+	padding-left: .8em;
+}
+
+.input-align {
+     margin-left: 27%;
+}
+
+.input-block {
+	display: block;
+}
+
+.inner-box {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+textarea{
+	display: block;
+	width: 29em;
+	height: 6em;
+	margin-top: .5em;
+	background-color: #FFFAA2;
+}
+
+.button-box{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+select{
+	background-color: #FFFAA2;
+}
+
+.phone {
+	width: 4em;
+}
+
+.phone-1{
+	width: 3em;
+}
+
+.input-address{
+	width: 29em;
+}
+
+.input-state{
+	width: 3.4em;
+}
+
+.input-zip{
+	width: 6em;
+}
+
+.input-city{
+	width: 17.4em;
+}
+
+.full-width-input {
+	display: block;
+}
+
+.button-pad{
+	margin-left: 2em;
+}

@@ -1,0 +1,162 @@
+.navbar-container{
+	z-index: 100;
+	position: fixed;
+  top: 0%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+nav li {
+  width: 8%;
+  display: inline-block;
+  text-align: center;
+}
+
+/* clear'n floats */
+nav ul:after {
+  clear: both;
+}
+
+nav ul:before,
+nav ul:after {
+    content: " ";
+    display: table;
+}
+
+nav {
+  position: absolute;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.1em ;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+
+}
+
+/* prime */
+ul.primary li a {
+  display: block;
+  height: 100%;
+
+}
+
+
+/* subs */
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  display:none;
+  text-align: center;
+}
+
+ul.sub li {
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+ul.sub li a {
+  border-right: none;
+  border-left: none;
+  color: #000;
+  padding: 15px 30px;
+  width: 100%;
+  border-bottom: 1px dotted #ccc;
+  font-size: .8em;
+}
+
+
+ul.sub li:last-child a{
+  border-bottom: none;
+}
+
+ul.sub li a:hover {
+  color: #000;
+  background: #eeeeee;
+}
+
+/* sub display*/
+ul.primary li:hover ul {
+  display: block;
+  position: absolute;
+  width: 13%;
+  background: black;
+}
+
+ul.primary li:hover ul li {
+  display: block;
+  background: black;
+}
+
+/* keeps the tab background white */
+ul.primary li:hover a {
+  border: 2px solid white;
+  text-shadow: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .decor {
+    padding: 3px;
+  }
+  
+  .wrap {
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+   li {
+    float: none;
+  }
+  
+  ul.primary li:hover a {
+    background: none;
+    color: #8B8B8B;
+    text-shadow: 1px 1px #000;
+  }
+
+  ul.primary li:hover ul {
+    display: block;
+    background: #272727;
+    color: #fff;
+  }
+  
+  ul.sub {
+    display: block;  
+    position: static;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  ul.sub li a {
+    background: #272727;
+  	border: none;
+    color: #8B8B8B;
+  }
+  
+  ul.sub li a:hover {
+    color: #ccc;
+    background: none;
+  }
+}

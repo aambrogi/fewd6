@@ -1,0 +1,75 @@
+.horizontal-gallery{
+	height: 100%;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	width: auto;
+	white-space: nowrap;
+	position: relative;
+	z-index: 0;
+}
+
+.horizontal-gallery h3{
+	color: black;
+	position: fixed;
+	top: 7%;
+	left: 5%;
+	font-size: 5em;
+
+}
+
+.horizontal-image{
+	height: 100%;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	padding-right: 1%;
+}
+
+
+
+.link-box-container{
+	height: 90%;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 6%;
+	padding-bottom: 4%;
+
+}
+
+.gallery-selection-heading{
+	height: 12%;
+	text-align: center;
+}
+
+.gallery-selection-heading h3{
+	color: black;
+	display: block;
+}
+
+
+.link-box{
+	height: 20%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+}
+
+.link-box-1{
+	background-image: url(..img/gallery-blocks/block-wide-people.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.link-box-image{
+	width: 100%;
+	height: auto;
+
+}
+
